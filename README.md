@@ -1,4 +1,6 @@
 # holdable-plotly
+PythonでPlotlyのFigureオブジェクトをもとに、クリックでホバー時のツールチップを固定できるHTMLを生成します。<br>
+また、custom_dataに入れた列の値がHTMLとしてグラフの下側に表示されます。
 
 ## USAGE
 ```python
@@ -17,3 +19,9 @@ fn = holdable_tooltips.export_html(fig,filename='output.html',show_hovercustom=T
 ````
 
 ![holdable_tooltips_plotly](https://github.com/user-attachments/assets/a2aeb9bf-9354-4ced-8f52-aa2ab74952a3)
+
+
+## HTML SAMPLE
+出力されるHTMLのサンプルはこちらです。
+
+https://abay-qkt.github.io/holdable-plotly-sample-html/output.html
